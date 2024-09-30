@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.header__nav {
+    display: flex;
+}
+
+.header__list {
+    display: flex;
+    flex-direction: column; /* Изменяем на вертикальное расположение */
+}
+
+.header__item {
+    margin-bottom: 10px; /* Отступ между элементами списка
+
+}
+
+.header__link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header__link:hover {
+    color: #ff0000;
+}
+
+.content {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Используем Grid для многостолбцовой структуры */
+    gap: 20px; /* Пробел между элементами */
+}
+
+.reviews__title, .gallery__title {
+    margin-top: 20px;
+}
+
+.reviews__list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.reviews__item {
+    margin-bottom: 10px;
+}
+
+.gallery__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Галерея с адаптивными колонками */
+    gap: 10px;
+}
+
+.gallery__item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Добавляем скругление углов изображений */
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

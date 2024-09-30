@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEM Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header__logo">Прекрасные розы!</div>
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li class="header__item"><a class="header__link" href="#">Home</a></li>
+                <li class="header__item"><a class="header__link" href="#">About</a></li>
+                <li class="header__item"><a class="header__link" href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <div class="content">
+        <h1 class="content__title">Добро пожаловать в мой БЭМ проект</h1>
+        <p class="content__text">Это образец страницы, созданный с использованием методологии BEM и современных практик CSS.</p>
+        
+        <!-- Новый блок для отзывов -->
+        <section class="reviews">
+            <h2 class="reviews__title">Отзывы пользователей</h2>
+            <ul class="reviews__list">
+                <li class="reviews__item">"Великолепный проект!" - Иванов И.И.</li>
+                <li class="reviews__item">"Очень красивые розы!" - Петров П.П.</li>
+                <li class="reviews__item">"Отличный дизайн!" - Сидоров С.С.</li>
+            </ul>
+        </section>
+        
+        <!-- Новый блок для галереи изображений -->
+        <section class="gallery">
+            <h2 class="gallery__title">Галерея</h2>
+            <div class="gallery__grid">
+                <div class="gallery__item"><img src="image1.jpg" alt="Image 1"></div>
+                <div class="gallery__item"><img src="image2.jpg" alt="Image 2"></div>
+                <div class="gallery__item"><img src="image3.jpg" alt="Image 3"></div>
+                <div class="gallery__item"><img src="image4.jpg" alt="Image 4"></div>
+            </div>
+        </section>
+    </div>
+    
+    <div class="footer">
+        <p class="footer__text">© 2024 БЭМ проект</p>
+    </div>
+</body>
+</html>
